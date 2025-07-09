@@ -4,7 +4,7 @@ import pickle
 from huggingface_hub import login
 import click
 
-login(token='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')
+login(token='<your token>')
 
 quant_config = BitsAndBytesConfig(load_in_4bit=True)
 
