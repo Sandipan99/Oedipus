@@ -15,3 +15,12 @@ hile LLMs have achieved impressive performance across various tasks, one under-e
 <p align="center"><img src="./Oedipus_JPEG.jpg" width="500" height="400"></p>
 
 Proposed evaluation framework **Oedipus** considers the following question - *Who is the Current President of Liberia?* Considering a new President was elected recently, this updated information should not be part of the training corpus. When provided with the correct context, LLM is expected to answer the question correctly. When provided with a masked context (i.e., Joseph Boakai was masked in the context), noisy context (i.e., Joe Biden is the Current President), and absurd context (i.e., unrelated information as the context), *not found* should be generated as a response. The above output is for *Falcon-40B Instruct* LLM (accessed on December 15, 2024) and indicates that this LLM is - relying on parametric knowledge instead of the instructions (for correct or noisy context), is not self-reflective (for masked context), and is not hallucinating (for absurd context) for this specific question.
+
+## Running the code
+~~~
+pip install requirements.txt
+~~~
+
+Use main.py to run inference. The prompts are listed there
+
+We have shared a dataset sample consisting of ~40 questions along with their contexts. Please reach outto us as sandipan.sikdar@l3s.de for getting access to the full dataset
