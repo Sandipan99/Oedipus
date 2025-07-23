@@ -5,7 +5,20 @@ Code and data related to paper "Evaluating LLMs’ (In)ability to Follow Prompts
 
 ***Please cite our paper in any published work that uses any of these resources.***
 ~~~
-Coming soon
+@inproceedings{DBLP:conf/sigir/KhatuaKMS25,
+  author       = {Aparup Khatua and
+                  Tobias Kalmbach and
+                  Prasenjit Mitra and
+                  Sandipan Sikdar},
+  title        = {Evaluating LLMs' (In)ability to Follow Prompts in {QA} Tasks},
+  booktitle    = {Proceedings of the 48th International {ACM} {SIGIR} Conference on
+                  Research and Development in Information Retrieval, {SIGIR} 2025, Padua,
+                  Italy, July 13-18, 2025},
+  pages        = {2941--2945},
+  publisher    = {{ACM}},
+  year         = {2025},
+  url          = {https://doi.org/10.1145/3726302.3730190}
+}
 ~~~
 
 ## Abstract
