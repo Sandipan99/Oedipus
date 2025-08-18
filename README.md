@@ -36,4 +36,4 @@ pip install requirements.txt
 
 Use main.py to run inference. The prompts are listed there
 
-We have shared a dataset sample consisting of ~40 questions along with their contexts. Please reach outto us as sandipan.sikdar@l3s.de for getting access to the full dataset
+We have shared a dataset sample consisting of ~40 questions along with their contexts. Please reach out to us at sandipan.sikdar@l3s.de for getting access to the full dataset
