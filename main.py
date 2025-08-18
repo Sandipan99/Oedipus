@@ -2,7 +2,6 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from tqdm import tqdm
 import pickle
 from huggingface_hub import login
-import click
 
 login(token='<your token>')
 
